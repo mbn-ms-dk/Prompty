@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PromptyApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fd890179079b72d12b9c49192f570b46d03eab0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PromptyApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PromptyApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
