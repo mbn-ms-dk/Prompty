@@ -6,10 +6,12 @@ var configBuilder = new ConfigurationBuilder()
     .SetBasePath(Directory.GetCurrentDirectory())
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 var config = configBuilder.Build();
+#pragma warning disable CS8604 // Possible null reference argument.
 builder.Services.AddAzureOpenAIChatCompletion(
     config["AzureOpenAI:deployment"],
     config["AzureOpenAI:endpoint"],
      config["AzureOpenAI:apiKey"]);
+#pragma warning restore CS8604 // Possible null reference argument.
 var kernel = builder.Build();
 
 //ask user to select a response type by entering a number
@@ -30,7 +32,9 @@ string promptFile = responseType switch
 KernelFunction kernelFunction = kernel.CreateFunctionFromPromptyFile(promptFile);
 var responseTypeName = responseType == 1 ? "Yoda" : "Shakespeare";
 Console.WriteLine($"Ask your question to a {responseTypeName} AI:");
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
 string question = Console.ReadLine();
+#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
 string? answer = await kernelFunction.InvokeAsync<string>(kernel, new() 
 {
     {

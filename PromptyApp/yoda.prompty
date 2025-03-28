@@ -6,11 +6,11 @@ authors:
 model:
   api: chat
   configuration:
-    type: azure_openai
-    api_version: "2023-07-01-preview"
-    azure_endpoint: "https://semkai.openai.azure.com/"
-    api_key: "62dyMVaCVk7bLN1iAx6Ts7wY4f3zGqSLSIumw4ex49j8f4HzjI6QJQQJ99BAACfhMk5XJ3w3AAABACOGPTuh"
-    azure_deployment: "skaim"
+     type: azure_openai
+     api_version: "2023-07-01-preview"
+     azure_endpoint: "<your-azure-endpoint>"
+     api_key: "<your-azure-api-key>"
+     azure_deployment: "<your-azure-deployment>"
   parameters:
     max_tokens: 3000
 sample:

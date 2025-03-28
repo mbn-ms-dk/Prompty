@@ -56,3 +56,4 @@ c:\Dev\Projects\Prompty\PromptyApp\obj\Debug\net9.0\PromptyApp.csproj.Up2Date
 c:\Dev\Projects\Prompty\PromptyApp\bin\Debug\net9.0\shakespeare.prompty
 c:\Dev\Projects\Prompty\PromptyApp\bin\Debug\net9.0\yoda.prompty
 c:\Dev\Projects\Prompty\PromptyApp\bin\Debug\net9.0\appsettings.json
+C:\Dev\Projects\Prompty\PromptyApp\obj\Debug\net9.0\PromptyApp.sourcelink.json
