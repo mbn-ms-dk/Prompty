@@ -28,8 +28,9 @@ rootCmd.SetHandler(async () =>
     await DisplayInfo();
 });
 
-async Task DisplayInfo()
+Task DisplayInfo()
 {
+    return Task.CompletedTask;
     // AnsiConsole.MarkupLineInterpolated($"[green]Welcome to Prompty AI Chatbot![/]");
     // AnsiConsole.MarkupLineInterpolated($"[green]Use --help for more information.[/]");
 }

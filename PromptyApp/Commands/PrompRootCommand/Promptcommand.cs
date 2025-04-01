@@ -8,27 +8,6 @@ namespace PromptyApp.Commands
     {
         private readonly Kernel Kernel;
 
-        // public PromptCommand() : base("prompt", "Prompt the AI with a question")
-        // {
-        //     this.Kernel = Kernel.CreateBuilder().Build();
-        //     var promptOption = new Option<int>(["--prompt", "-p"], "Select a prompt file. 1 for Yoda, 2 for Shakespeare")
-        //     {
-        //         IsRequired = true,
-        //         ArgumentHelpName = "prompt"
-        //     };
-
-        //     var questionOption = new Option<string>(["--question", "-q"], "The question to ask the AI")
-        //     {
-        //         IsRequired = true,
-        //         ArgumentHelpName = "question"
-        //     };
-        //     this.SetHandler(async (promptOption, questionOption) =>
-        //     {
-        //         await ExecuteAsync(promptOption, questionOption);
-        //     }
-        //     , promptOption, questionOption);
-        // }
-
         public PromptCommand(Kernel kernel) : base("prompt", "Prompt the AI with a question")
         {
             this.Kernel = kernel;
