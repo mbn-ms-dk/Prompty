@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Dev\\Projects\\Prompty\\PromptyApp\\PromptyApp.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.1",
       "restore": {
         "projectUniqueName": "C:\\Dev\\Projects\\Prompty\\PromptyApp\\PromptyApp.csproj",
         "projectName": "PromptyApp",
@@ -53,15 +53,23 @@
           "dependencies": {
             "Microsoft.SemanticKernel": {
               "target": "Package",
-              "version": "[1.40.1, )"
+              "version": "[1.44.0, )"
             },
             "Microsoft.SemanticKernel.PromptTemplates.Liquid": {
               "target": "Package",
-              "version": "[1.40.1-preview, )"
+              "version": "[1.44.0-preview, )"
             },
             "Microsoft.SemanticKernel.Prompty": {
               "target": "Package",
-              "version": "[1.40.1-alpha, )"
+              "version": "[1.44.0-alpha, )"
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.49.1, )"
+            },
+            "System.CommandLine": {
+              "target": "Package",
+              "version": "[2.0.0-beta4.22272.1, )"
             }
           },
           "imports": [
