@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Dev\\Projects\\Prompty\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B4AE6EC-CA06-48CE-A3D5-9E2211F4298B}|PromptyApp\\PromptyApp.csproj|c:\\dev\\projects\\prompty\\promptyapp\\promptyapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7B4AE6EC-CA06-48CE-A3D5-9E2211F4298B}|PromptyApp\\PromptyApp.csproj|solutionrelative:promptyapp\\promptyapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B4AE6EC-CA06-48CE-A3D5-9E2211F4298B}|PromptyApp\\PromptyApp.csproj|c:\\dev\\projects\\prompty\\promptyapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B4AE6EC-CA06-48CE-A3D5-9E2211F4298B}|PromptyApp\\PromptyApp.csproj|solutionrelative:promptyapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,41 +14,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\Projects\\Prompty\\PromptyApp\\Program.cs",
+              "RelativeDocumentMoniker": "PromptyApp\\Program.cs",
+              "ToolTip": "C:\\Dev\\Projects\\Prompty\\PromptyApp\\Program.cs",
+              "RelativeToolTip": "PromptyApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:25:42.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PromptyApp",
-              "DocumentMoniker": "C:\\Dev\\Projects\\Prompty\\PromptyApp\\PromptyApp.csproj",
-              "RelativeDocumentMoniker": "PromptyApp\\PromptyApp.csproj",
-              "ToolTip": "C:\\Dev\\Projects\\Prompty\\PromptyApp\\PromptyApp.csproj",
-              "RelativeToolTip": "PromptyApp\\PromptyApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-07T12:50:56.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Dev\\Projects\\Prompty\\PromptyApp\\Program.cs",
-              "RelativeDocumentMoniker": "PromptyApp\\Program.cs",
-              "ToolTip": "C:\\Dev\\Projects\\Prompty\\PromptyApp\\Program.cs",
-              "RelativeToolTip": "PromptyApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T12:25:42.827Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

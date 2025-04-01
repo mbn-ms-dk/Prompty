@@ -1,5 +1,0 @@
-C:\Dev\Projects\Prompty\PromptyApp\obj\Debug\net8.0\PromptyApp.csproj.AssemblyReference.cache
-C:\Dev\Projects\Prompty\PromptyApp\obj\Debug\net8.0\PromptyApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Dev\Projects\Prompty\PromptyApp\obj\Debug\net8.0\PromptyApp.AssemblyInfoInputs.cache
-C:\Dev\Projects\Prompty\PromptyApp\obj\Debug\net8.0\PromptyApp.AssemblyInfo.cs
-C:\Dev\Projects\Prompty\PromptyApp\obj\Debug\net8.0\PromptyApp.csproj.CoreCompileInputs.cache
